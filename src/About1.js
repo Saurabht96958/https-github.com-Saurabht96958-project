@@ -11,7 +11,7 @@ const About1 = () => {
                     <div className="row d-flex mx-auto p-5 justify-content-center">
                         <div data-aos-duration="2000" data-aos="fade-right" className="mt-5 d-flex flex-column col-md-6 col-6 order-lg-1 order-2 mx-auto">
                             <h6 className="text-primary mt-5 mb-5">ABOUT ME</h6>
-                            <h1 className="text-dark"><strong>Hello! I’m Abhay. I’ve Been Building Websites</strong></h1>
+                            <h1 className="text-dark"><strong>Hello! I’m Bazigar Tech. I’ve Been Building Websites</strong></h1>
                             <h5 className="mt-3 text-muted">When you’re looking to hire a web designer, the last thing that you want is a website that looks
                             like it’s straight out of a seminar on Web 2.0 or, worse yet, something you could have made back
                             in the Geo cities era. Our designers have kept up with the latest trends in web design and can build
