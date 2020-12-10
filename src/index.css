@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+  margin: 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family : muli, sans-serif;
+}
+
+.navbar {
+  background-color : 	#000000 !important;
+}
+
+.ml-6 {
+  margin-left: 5.9rem !important;
+}
+.navbar-brand {
+  font-size : 1.9rem !important;
+  color : #565387 !important;
+}
+
+.navbar a {
+  font-size : 1.3rem;
+  text-transform : capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom : 1px solid rgba(255, 255, 255, 0.966);
+}
+
+.navbar a:hover {
+  color : #3498db !important;
+}
+
+@media (max-width : 991px) {
+  .navbar-brand {
+    font-size : 1.5rem !important;
+  }
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+  
+}
+
+/* ?------------------------------------------------------- */
+.imgh {
+  background-image: url(./images/waiting2.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+   
+}
+
+#header {
+  width: 100%;
+  height: 80vh;
+  /* margin-top: 70px; */
+}
+
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size : 48px;
+  font-weight: 700;
+  color : black;
+}
+
+#header .brand-name {
+  color : #3498db;
+}
+
+#header h2{
+  color : grey;
+  font-size: 24px;
+}
+
+
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: width 2s, height 2s, transform 2s;
+  color: #3498db;
+   
+  border : 2px solid #3498db;
+  text-decoration: none;
+}
+
+
+#header .btn-get-started:hover {
+  background : #3498db;
+  color : #fff;
+  text-align: center;
+  width:200px;
+  height: 50px;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform : translateY(10px);
+  }
+  100% {
+    transform : translateY(-px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+ 
+
+
+/* ---------------------------------------- */
+/* 
+.mx-6 {
+  margin-left: 180px !important;
+}
+.mx-7 {
+  margin-left: 420px !important;
+  
+}
+.s1 {
+  height: 327px;
+}
+.c1 {
+  margin-top: 120px !important;
+}
+
+.c2 {
+  height: 650px !important;
+  border-radius: 20px !important;
+  text-align: center;
+  text-emphasis: none;
+  
+}
+.c3 {
+  margin-top: 200px;
+} */
