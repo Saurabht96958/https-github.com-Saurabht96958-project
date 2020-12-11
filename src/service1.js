@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const Service1 = () => {
     return (
         <>
-            <div id="header" className="" >
+            <div id="" className="" >
                 <div className="container-fluid">
                     <div className="row">
                         <h1 className="mt-5 text-center text-dark"><strong>Our Services</strong></h1>
@@ -21,7 +21,7 @@ const Service1 = () => {
 
                 <div className="container-fluid bg-info">
                     <div className="row">
-                        <div className="col-8 mx-auto">
+                        <div className="col-10 col-lg-8 mx-auto">
                             <div className="row gy-4">
                                 <Card />
                             </div>

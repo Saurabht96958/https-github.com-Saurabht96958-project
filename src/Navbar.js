@@ -10,7 +10,7 @@ const Navbar = () => {
             <div data-aos="zoom-in" data-aos-duration="2000" className="container-fluid navbar">   
                 <div className="row">
                     <div className="col-10 mx-auto">
-                        <nav className="navbar navbar-expand-lg navbar-light ">
+                        <nav className="navbar navbar-expand-sm navbar-light ">
                             <NavLink className="navbar-brand ml-4 " exact to="/"><img className="ml-6" src="/images/bazigar2.png" height="60" width="60" alt="BazigarTech" /><br /><img className="ml-0" src="/images/bazigar3.png" height="60" width="260" alt="BazigarTech" /></NavLink>
 
                             <button className="navbar-toggler bg-light" type="button"
