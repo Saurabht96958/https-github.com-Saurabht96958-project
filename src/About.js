@@ -8,13 +8,13 @@ import About3 from "./About3";
 const About = () => {
     return (
         <>
-            <div className="container-fluid">
+            <div className="">
                 <About1 />
                  
-                <div className="container-expand  " style={{backgroundColor:"#161922"}} >
-                    <div className="row my-4">
-                        <div className="col-8 mx-auto">
-                            <div className="row my-auto mb-3 mt-3 gy-2">
+                <div className="container-fluid bg-info">
+                    <div className="row">
+                        <div className="col-10 col-lg-8 mx-auto">
+                            <div className="row gy-4">
                                 <About2 />
                             </div>
 
